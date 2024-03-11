@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { MaterialCommunityIcons } from "react-native-vector-icons";
 import { useNavigation } from '@react-navigation/native';
+import CartSection from '../components/CartSection';
 
 
 
@@ -13,6 +14,7 @@ const Cart = () => {
 
 
   return (
+    <>
     <View style={{flexDirection:'row',alignItems:'center',backgroundColor:'#EA1179'}}>
 
     <MaterialCommunityIcons 
@@ -28,6 +30,10 @@ const Cart = () => {
     </View>
       
       </View>
+      
+      <CartSection />
+      
+      </>
   )
 
 }

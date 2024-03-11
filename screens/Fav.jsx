@@ -42,9 +42,9 @@ const Fav = () => {
               />
       </View>
 
-      <ScrollView scrollEnabled={true}>
+      
         <FavStores/>
-      </ScrollView>
+      
 
 
 
