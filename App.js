@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './screens/HomeScreen';
 import RestaurantsDetail from './screens/RestaurantsDetail';
+import CategoryRouteScreen from './screens/CategoryRouteScreen';
 import Fav from './screens/Fav';
 import Cart from './screens/Cart';
 
@@ -21,6 +22,8 @@ export default function App() {
       <Stack.Screen name="restaurantsDetail" component={RestaurantsDetail} options={{headerShown:false}} />
       <Stack.Screen name="favScreen" component={Fav} options={{headerShown:false}} />
       <Stack.Screen name="cartScreen" component={Cart} options={{headerShown:false}} />
+      <Stack.Screen name="categoryRoute" component={CategoryRouteScreen} options={{headerShown:false}} />
+
 
     </Stack.Navigator>
     </NavigationContainer>

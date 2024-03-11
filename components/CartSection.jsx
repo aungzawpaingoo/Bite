@@ -39,15 +39,15 @@ const styles = StyleSheet.create({
   card: {
     backgroundColor: 'white',
     borderRadius: 6,
-    elevation: 3,
+    elevation: 5,
     marginHorizontal: 8,
     marginVertical: 10,
     flexDirection:'row',
     height:100
   },
   image: {
-    width: 100,
-    height: 80,
+    width: 60,
+    height: 60,
     resizeMode: 'cover',
     borderRadius: 6,
     marginLeft:'4%',

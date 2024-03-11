@@ -4,6 +4,7 @@ import { MaterialCommunityIcons } from "react-native-vector-icons";
 import { useNavigation } from '@react-navigation/native';
 import Categories from '../components/Categories';
 import FavStores from '../components/FavStores';
+import FavFilterTab from '../components/FavFilterTab';
 
 
 const Fav = () => {
@@ -15,6 +16,7 @@ const Fav = () => {
   return (
 
     <>
+    <View style={{flex:1,backgroundColor:'white'}}>
     <View style={{flexDirection:'row',alignItems:'center',backgroundColor:'#EA1179'}}>
 
     <MaterialCommunityIcons 
@@ -42,12 +44,17 @@ const Fav = () => {
               />
       </View>
 
+
+    
+    <FavFilterTab/>
+   
+        
       
         <FavStores/>
       
 
 
-
+        </View>
       </>
   )
 }

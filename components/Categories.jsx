@@ -7,6 +7,8 @@ const Categories = () => {
   const navigation = useNavigation();
 
   const handleCategoryPress = (categoryId) => {
+
+    navigation.navigate('categoryRoute')
     
   };
 
