@@ -4,7 +4,7 @@
 Food Ordering Application Build With React Native
 
 ## Screenshots
-![Screenshot_20240312-140449-portrait](https://github.com/aungzawpaingoo/Bite/assets/86042513/efaa3e10-f01b-4c51-ad31-828cc22d52b6)
+![Tech Video in Black and White Yellow Pink Bold Tech Gradient Style](https://github.com/aungzawpaingoo/Bite/assets/86042513/f7a0be29-1e8a-45f9-93ef-a1aef0df4af4)
 
 
 
