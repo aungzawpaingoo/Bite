@@ -4,7 +4,7 @@ import { MaterialCommunityIcons } from 'react-native-vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import offerNearYou from '../data/offerNearYou';
 
-const CartSection = () => {
+const Menu = () => {
   const navigation = useNavigation();
 
   return (
@@ -15,24 +15,22 @@ const CartSection = () => {
           
           <View style={styles.card}>
             
-            <View style={{flexDirection:'row',alignItems:'center'}}>
-
+            
+            <TouchableOpacity style={{flexDirection:'row',alignItems:'center'}}>
+            
             <View>
             <Image source={item.image} style={styles.image} />
             </View>
 
            
-            <View>
-            <Text style={styles.cardTitle}>Sushi Mixed Box</Text>
-            <Text style={styles.cardTitle2}>Total : 5000 Ks</Text>
-            <Text style={styles.cardTitle2}>Duration : 25 mins to 30 mins</Text>
+            <View style={{marginLeft:'10%',marginTop:'-3%'}}>
+            <Text style={styles.cardTitle}>{item.name}</Text>
+            <Text style={styles.cardTitle2}>{item.duration}</Text>
+            <Text style={styles.cardTitle2}>{item.rating}</Text>
             </View>
 
-            <View>
-            <MaterialCommunityIcons name="delete" color="#EA1179" size={30} style={styles.icon} onPress={()=>Alert.alert('Delete')} />
-            </View>
-
-            </View>
+            
+            </TouchableOpacity>
             
             
             
@@ -45,7 +43,7 @@ const CartSection = () => {
   );
 };
 
-export default CartSection;
+export default Menu;
 
 const styles = StyleSheet.create({
   container: {
@@ -54,15 +52,15 @@ const styles = StyleSheet.create({
   card: {
     backgroundColor: 'white',
     borderRadius: 6,
-    elevation: 5,
+    elevation: 6,
     marginHorizontal: 8,
-    marginVertical: 10,
+    marginVertical: 4,
     flexDirection:'row',
     height:100
   },
   image: {
-    width: 60,
-    height: 60,
+    width: 80,
+    height: 70,
     resizeMode: 'cover',
     borderRadius: 6,
     marginLeft:'4%',

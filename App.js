@@ -7,6 +7,7 @@ import RestaurantsDetail from './screens/RestaurantsDetail';
 import CategoryRouteScreen from './screens/CategoryRouteScreen';
 import Fav from './screens/Fav';
 import Cart from './screens/Cart';
+import MenuDetail from './screens/MenuDetail';
 
 
 
@@ -23,6 +24,7 @@ export default function App() {
       <Stack.Screen name="favScreen" component={Fav} options={{headerShown:false}} />
       <Stack.Screen name="cartScreen" component={Cart} options={{headerShown:false}} />
       <Stack.Screen name="categoryRoute" component={CategoryRouteScreen} options={{headerShown:false}} />
+      <Stack.Screen name="menuDetail" component={MenuDetail} options={{headerShown:false}} />
 
 
     </Stack.Navigator>
