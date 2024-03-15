@@ -40,7 +40,7 @@ const TrendingOrders = () => {
 
  <View style={styles.card}>
    
-   <TouchableOpacity>
+ <TouchableOpacity onPress={()=> navigation.navigate('menuDetail')}>
    <View>
    <Image source={japanese} style={styles.imageCard} />
    <Text style={styles.label}>Sushi</Text>
@@ -48,7 +48,7 @@ const TrendingOrders = () => {
    </TouchableOpacity>
    
 
-   <TouchableOpacity>
+   <TouchableOpacity onPress={()=> navigation.navigate('menuDetail')}>
    <View>
    <Image source={indian} style={styles.imageCard} />
    <Text style={styles.label}>Indian</Text>

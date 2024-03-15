@@ -13,7 +13,7 @@ const DiscountCard = () => {
      <View style={{flexDirection:'row'}}>
      <MaterialCommunityIcons
                   name="sale"
-                  color={"#EA1179"}
+                  color={"#B80000"}
                   size={20}
                   style={{margin:'2%',}}
                   onPress={() => navigation.goBack()}

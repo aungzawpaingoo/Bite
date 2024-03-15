@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StatusBar, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { MaterialCommunityIcons } from "react-native-vector-icons";
 import { useNavigation } from '@react-navigation/native';
@@ -13,10 +13,14 @@ const Cart = () => {
 
 
 
+
+
   return (
     <>
+
+    <StatusBar backgroundColor={'#B80000'} />
     <View style={{flex:1,backgroundColor:'white'}}>
-    <View style={{flexDirection:'row',alignItems:'center',backgroundColor:'#EA1179'}}>
+    <View style={{flexDirection:'row',alignItems:'center',backgroundColor:'#B80000'}}>
 
     <MaterialCommunityIcons 
     name="arrow-left-circle"

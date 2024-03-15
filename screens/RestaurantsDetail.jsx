@@ -42,7 +42,7 @@ const RestaurantsDetail = () => {
           <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: '1.8%',marginTop:'3%' }}>
                 <MaterialCommunityIcons
                   name="cash-fast"
-                  color={"#EA1179"}
+                  color={"#B80000"}
                   size={23}
                   style={{ marginRight: 5, marginLeft: 4 }}
                 />
@@ -50,7 +50,7 @@ const RestaurantsDetail = () => {
 
                 <MaterialCommunityIcons
                   name="google-maps"
-                  color={"#EA1179"}
+                  color={"#B80000"}
                   size={23}
                   style={{ marginRight: 5, marginLeft: 4 }}
                 />
@@ -61,7 +61,7 @@ const RestaurantsDetail = () => {
           <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: '1.8%',marginTop:'3%' }}>
                 <MaterialCommunityIcons
                   name="star"
-                  color={"#EA1179"}
+                  color={"#B80000"}
                   size={23}
                   style={{ marginRight: 5, marginLeft: 4 }}
                 />
@@ -69,7 +69,7 @@ const RestaurantsDetail = () => {
 
                 <MaterialCommunityIcons
                   name="bike-fast"
-                  color={"#EA1179"}
+                  color={"#B80000"}
                   size={20}
                   style={{ marginRight: 8, marginLeft: 4 }}
                 />

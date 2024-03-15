@@ -18,7 +18,7 @@ const CategoryRouteScreen = () => {
 
     <>
     <View style={{flex:1,backgroundColor:'white'}}>
-    <View style={{flexDirection:'row',alignItems:'center',backgroundColor:'#EA1179'}}>
+    <View style={{flexDirection:'row',alignItems:'center',backgroundColor:'#B80000'}}>
 
 <MaterialCommunityIcons 
 name="arrow-left-circle"

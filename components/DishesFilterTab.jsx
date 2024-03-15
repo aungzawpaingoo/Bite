@@ -14,7 +14,7 @@ const DishesFilterTab = () => {
       <View style={styles.buttonContainer}>
         <Button
           mode="outlined"
-          buttonColor={focusedButton === 'Order Method' ? '#EA1179' : 'white'}
+          buttonColor={focusedButton === 'Order Method' ? '#B80000' : 'white'}
           onPress={() => handleButtonPress('Order Method')}
           textColor={focusedButton === 'Order Method' ? 'white' : 'black'}
           style={[styles.button, focusedButton === 'Order Method' && styles.focusedButton]}
@@ -24,7 +24,7 @@ const DishesFilterTab = () => {
 
         <Button
           mode="outlined"
-          buttonColor={focusedButton === 'Meal Option' ? '#EA1179' : 'white'}
+          buttonColor={focusedButton === 'Meal Option' ? '#B80000' : 'white'}
           onPress={() => handleButtonPress('Meal Option')}
           textColor={focusedButton === 'Meal Option' ? 'white' : 'black'}
           style={[styles.button, focusedButton === 'Meal Option' && styles.focusedButton]}
@@ -34,7 +34,7 @@ const DishesFilterTab = () => {
 
         <Button
           mode="outlined"
-          buttonColor={focusedButton === 'Rating' ? '#EA1179' : 'white'}
+          buttonColor={focusedButton === 'Rating' ? '#B80000' : 'white'}
           onPress={() => handleButtonPress('Rating')}
           textColor={focusedButton === 'Rating' ? 'white' : 'black'}
           style={[styles.button, focusedButton === 'Rating' && styles.focusedButton]}
@@ -44,7 +44,7 @@ const DishesFilterTab = () => {
 
         <Button
           mode="outlined"
-          buttonColor={focusedButton === 'Offers' ? '#EA1179' : 'white'}
+          buttonColor={focusedButton === 'Offers' ? '#B80000' : 'white'}
           onPress={() => handleButtonPress('Offers')}
           textColor={focusedButton === 'Offers' ? 'white' : 'black'}
           style={[styles.button, focusedButton === 'Offers' && styles.focusedButton]}
@@ -54,7 +54,7 @@ const DishesFilterTab = () => {
 
         <Button
           mode="outlined"
-          buttonColor={focusedButton === 'Price' ? '#EA1179' : 'white'}
+          buttonColor={focusedButton === 'Price' ? '#B80000' : 'white'}
           onPress={() => handleButtonPress('Price')}
           textColor={focusedButton === 'Price' ? 'white' : 'black'}
           style={[styles.button, focusedButton === 'Price' && styles.focusedButton]}
@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
   },
   focusedButton: {
-    backgroundColor: '#EA1179',
+    backgroundColor: '#B80000',
     color: 'white',
   },
 });

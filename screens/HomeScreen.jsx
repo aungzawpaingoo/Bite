@@ -39,14 +39,15 @@ const HomeScreen = () => {
 
 
 
+
   return (
 
     <SafeAreaView style={{backgroundColor:'white'}}>
     <ScrollView>
     
-    <StatusBar backgroundColor={'#EA1179'} />
+    <StatusBar backgroundColor={'#B80000'} />
     
-    <View style={{flexDirection:'row',alignItems:'center',backgroundColor:'#EA1179'}}>
+    <View style={{flexDirection:'row',alignItems:'center',backgroundColor:'#B80000'}}>
 
     <MaterialCommunityIcons 
     name="menu"
@@ -178,7 +179,7 @@ const styles = StyleSheet.create({
       flexDirection:'row',
       alignItems:'center',
       justifyContent:'space-between',
-      backgroundColor:'#EA1179'
+      backgroundColor:'#B80000'
       
     }
 

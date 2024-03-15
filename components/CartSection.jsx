@@ -29,7 +29,7 @@ const CartSection = () => {
             </View>
 
             <View>
-            <MaterialCommunityIcons name="delete" color="#EA1179" size={30} style={styles.icon} onPress={()=>Alert.alert('Delete')} />
+            <MaterialCommunityIcons name="delete" color="#B80000" size={30} style={styles.icon} onPress={()=>Alert.alert('Delete')} />
             </View>
 
             </View>

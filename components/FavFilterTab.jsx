@@ -14,7 +14,7 @@ const FavFilterTab = () => {
       <View style={styles.buttonContainer}>
         <Button
           mode="outlined"
-          buttonColor={focusedButton === 'Favorite Dishes' ? '#EA1179' : 'white'}
+          buttonColor={focusedButton === 'Favorite Dishes' ? '#B80000' : 'white'}
           onPress={() => handleButtonPress('Favorite Dishes')}
           textColor={focusedButton === 'Favorite Dishes' ? 'white' : 'black'}
           style={[styles.button, focusedButton === 'Favorite Dishes' && styles.focusedButton]}
@@ -24,7 +24,7 @@ const FavFilterTab = () => {
 
         <Button
           mode="outlined"
-          buttonColor={focusedButton === 'Favorite Stores' ? '#EA1179' : 'white'}
+          buttonColor={focusedButton === 'Favorite Stores' ? '#B80000' : 'white'}
           onPress={() => handleButtonPress('Favorite Stores')}
           textColor={focusedButton === 'Favorite Stores' ? 'white' : 'black'}
           style={[styles.button, focusedButton === 'Favorite Stores' && styles.focusedButton]}
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
   },
   focusedButton: {
-    backgroundColor: '#EA1179',
+    backgroundColor: '#B80000',
     color: 'white',
   },
 });

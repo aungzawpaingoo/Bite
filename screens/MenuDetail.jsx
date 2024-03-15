@@ -8,6 +8,10 @@ import DiscountCard from '../components/DiscountCard';
 import TrendingOrders from '../components/TrendingOrders';
 import Menu from '../components/Menu';
 import MenuItemChoiceCard from '../components/MenuItemChoiceCard';
+import FrequentlyPairedDishes from '../components/FrequentlyPairedDishes';
+import SpecialRequest from '../components/SpecialRequest';
+import OutOfMenuOption from '../components/OutOfMenuOption';
+import ChooseAndNext from '../components/ChooseAndNext';
 
 
 const MenuDetail = () => {
@@ -40,13 +44,23 @@ const MenuDetail = () => {
         
          <View style={{flexDirection:'row',alignItems:'center'}}> 
           <Text style={styles.title}>KFC South Dagon</Text>
-          <Text style={styles.price}>MMK </Text>
+          <Text style={styles.price}>Duration </Text>
           </View>
 
           <Text style={styles.menuDescription}>With Special Burger Sauce</Text>
 
 
           <MenuItemChoiceCard/>
+
+          <FrequentlyPairedDishes />
+
+          <SpecialRequest />
+
+          <OutOfMenuOption />
+
+          <ChooseAndNext />
+
+          
 
 
 
