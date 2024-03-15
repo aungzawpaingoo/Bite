@@ -23,12 +23,11 @@ const MenuDetail = () => {
   return (
 
 
-    <View style={{backgroundColor:'white'}}>
-    <ScrollView>
+    <View style={{flex:1,backgroundColor:'white'}}>
+    <ScrollView style={{marginTop:'4%'}}>
       
       
-      <StatusBar translucent backgroundColor={'transparent'} />
-
+    <StatusBar backgroundColor={'#B80000'} />
       <View style={{position:'relative'}}>
       <Image source={burgerImage} style={styles.bannerImage}/>
       </View>
@@ -44,7 +43,7 @@ const MenuDetail = () => {
         
          <View style={{flexDirection:'row',alignItems:'center'}}> 
           <Text style={styles.title}>KFC South Dagon</Text>
-          <Text style={styles.price}>Duration </Text>
+          <Text style={styles.price}>Duration 20 mins to 30 mins </Text>
           </View>
 
           <Text style={styles.menuDescription}>With Special Burger Sauce</Text>
@@ -93,15 +92,16 @@ const styles = StyleSheet.create({
   title:{
     marginLeft:'3%',
     marginTop:'5%',
-    fontSize:18,
+    fontSize:20,
     fontWeight:'700',
   },
 
   price:{
-    marginLeft:'30%',
+    marginLeft:'14%',
     marginTop:'5%',
     fontSize:13,
-    fontWeight:'500',
+    fontWeight:'400',
+    color:'gray',
   },
 
   menuDescription:{

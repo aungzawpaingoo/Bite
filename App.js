@@ -8,6 +8,8 @@ import CategoryRouteScreen from './screens/CategoryRouteScreen';
 import Fav from './screens/Fav';
 import Cart from './screens/Cart';
 import MenuDetail from './screens/MenuDetail';
+import OrderPlacingScreen from './screens/OrderPlacingScreen';
+import PaymentScreen from './screens/PaymentScreen';
 
 
 
@@ -18,6 +20,7 @@ export default function App() {
   return (
     <NavigationContainer>
     <Stack.Navigator>
+      
 
       <Stack.Screen name="home" component={HomeScreen} options={{headerShown:false}} />
       <Stack.Screen name="restaurantsDetail" component={RestaurantsDetail} options={{headerShown:false}} />
@@ -25,6 +28,9 @@ export default function App() {
       <Stack.Screen name="cartScreen" component={Cart} options={{headerShown:false}} />
       <Stack.Screen name="categoryRoute" component={CategoryRouteScreen} options={{headerShown:false}} />
       <Stack.Screen name="menuDetail" component={MenuDetail} options={{headerShown:false}} />
+      <Stack.Screen name="orderPlacing" component={OrderPlacingScreen} options={{headerShown:false}} />
+      <Stack.Screen name="payment" component={PaymentScreen} options={{headerShown:false}} />
+
 
 
     </Stack.Navigator>

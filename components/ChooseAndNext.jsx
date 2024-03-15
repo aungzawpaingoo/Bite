@@ -52,7 +52,7 @@ const ChooseAndNext = () => {
       textColor='white'
       style={styles.button}
       disabled={isAddtoCartDisabled}
-      onPress={()=>navigation.navigate('cartScreen')}
+      onPress={()=>navigation.navigate('orderPlacing')}
       >Go to Cart</Button>
 
       </View>    
